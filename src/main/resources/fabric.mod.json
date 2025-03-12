@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mccsj",
+	"version": "${version}",
+	"name": "Metro de Caracas",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Atomimox"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mccsj/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ax5.mccsj.MetroDeCaracas"
+		],
+		"fabric-datagen": [
+			"com.ax5.mccsj.MetroDeCaracasDataGenerator"
+		],
+		"client": [
+			"com.ax5.mccsj.MetroDeCaracasClient"
+		]
+	},
+	"mixins": [
+		"mccsj.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
