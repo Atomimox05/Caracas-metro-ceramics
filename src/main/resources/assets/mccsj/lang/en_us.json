@@ -1,5 +1,8 @@
 {
   "item.mccsj.suspicious_substance": "Suspicious Substance",
-  "item.mccsj.condensed_dirt": "Condensed Dirt",
-  "item.mccsj.zoologico_ceramic": "Zoo Block"
+  "item.mccsj.simple_zoologico_ceramic": "Simple Zoo Ceramic Block",
+  "item.mccsj.zoologico_ceramic": "Zoo Ceramic Block",
+  "item.mccsj.simple_caricuao_ceramic": "Simple Cuao Face Ceramic Block",
+  "item.mccsj.caricuao_ceramic": "Cuao Face Ceramic Block",
+  "itemGroup.mccsj": "Caracas Metro Ceramics"
 }

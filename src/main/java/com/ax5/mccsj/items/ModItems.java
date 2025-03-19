@@ -1,13 +1,18 @@
 package com.ax5.mccsj.items;
 
 import com.ax5.mccsj.MetroDeCaracas;
+import com.ax5.mccsj.block.ModBlocks;
+import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 import java.util.function.Function;
@@ -19,6 +24,19 @@ public class ModItems {
         // And register an event handler that adds our suspicious item to the ingredients group.
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
                 .register((itemGroup) -> itemGroup.add(ModItems.SUSPICIOUS_SUBSTANCE));
+
+        // Register the group.
+        Registry.register(Registries.ITEM_GROUP, CUSTOM_ITEM_GROUP_KEY, CUSTOM_ITEM_GROUP);
+
+// Register items to the custom item group.
+        ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
+            itemGroup.add(ModItems.SUSPICIOUS_SUBSTANCE);
+            itemGroup.add(ModBlocks.ZOOLOGICO_BLOCK);
+            itemGroup.add(ModBlocks.ZOOLOGICO_BLOCK_SIMPLE);
+            itemGroup.add(ModBlocks.CARICUAO_BLOCK);
+            itemGroup.add(ModBlocks.CARICUAO_BLOCK_SIMPLE);
+            // ...
+        });
     }
 
     public static Item register(String name, Function<Item.Settings, Item> itemFactory, Item.Settings settings) {
@@ -34,7 +52,11 @@ public class ModItems {
         return item;
     }
 
+    public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MetroDeCaracas.MOD_ID, "item_group"));
+    public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
+            .icon(() -> new ItemStack(ModBlocks.ZOOLOGICO_BLOCK))
+            .displayName(Text.translatable("itemGroup.mccsj"))
+            .build();
+
     public static final Item SUSPICIOUS_SUBSTANCE = register("suspicious_substance", Item::new, new Item.Settings());
-
-
 }

@@ -1,5 +1,8 @@
 {
   "item.mccsj.suspicious_substance": "Burundanga",
-  "item.mccsj.condensed_dirt": "Tierra compactada",
-  "item.mccsj.zoologico_ceramic": "Cerámica Zoológico"
+  "item.mccsj.zoologico_ceramic": "Cerámica Zoológico",
+  "item.mccsj.simple_zoologico_ceramic": "Cerámica Zoológico sin diseño",
+  "item.mccsj.caricuao_ceramic": "Cerámica Caricuao",
+  "item.mccsj.simple_caricuao_ceramic": "Cerámica Caricuao sin diseño",
+  "itemGroup.mccsj": "Cerámicas Metro de Caracas"
 }

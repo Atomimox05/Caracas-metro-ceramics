@@ -19,12 +19,6 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static void initialize() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register((itemGroup) -> {
-            itemGroup.add(ModBlocks.CONDENSED_DIRT.asItem());
-        });
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register((itemGroup) -> {
-            itemGroup.add(ModBlocks.ZOOLOGICO_BLOCK.asItem());
-        });
     }
 
     private static Block register(String name, Function<AbstractBlock.Settings, Block> blockFactory, AbstractBlock.Settings settings, boolean shouldRegisterItem) {
@@ -55,15 +49,175 @@ public class ModBlocks {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(MetroDeCaracas.MOD_ID, name));
     }
 
-    public static final Block CONDENSED_DIRT = register(
-            "condensed_dirt",
+    // ----- ZOOLOGICO -----
+    public static final Block ZOOLOGICO_BLOCK = register(
+            "zoologico_ceramic",
             Block::new,
-            AbstractBlock.Settings.create().sounds(BlockSoundGroup.GRASS),
+            AbstractBlock.Settings.copy(Blocks.STONE),
             true
     );
 
-    public static final Block ZOOLOGICO_BLOCK = register(
-            "zoologico_ceramic",
+    public static final Block ZOOLOGICO_BLOCK_SIMPLE = register(
+            "simple_zoologico_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- CARICUAO -----
+    public static final Block CARICUAO_BLOCK = register(
+            "caricuao_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block CARICUAO_BLOCK_SIMPLE = register(
+            "simple_caricuao_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- LAS ADJUNTAS -----
+    public static final Block ADJUNTAS_BLOCK = register(
+            "adjuntas_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block ADJUNTAS_VERTICAL_BLOCK = register(
+            "adjuntas_vertical_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block ADJUNTAS_BLOCK_SIMPLE = register(
+            "simple_adjuntas_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- RUIZ PINEDA -----
+    public static final Block RPINEDA_BLOCK = register(
+            "rpineda_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block RPINEDA_BLOCK_SIMPLE = register(
+            "simple_rpineda_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- MAMERA -----
+    public static final Block MAMERA_BLOCK = register(
+            "mamera_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block MAMERA_BLOCK_SIMPLE = register(
+            "simple_mamera_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- ANTIMANO -----
+    public static final Block ANTIMANO_BLOCK = register(
+            "antimano_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- CARAPITA -----
+    public static final Block CARAPITA_BLOCK = register(
+            "carapita_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block CARAPITA_BLOCK_SIMPLE = register(
+            "simple_carapita_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- LA YAGUARA -----
+    public static final Block YAGUARA_BLOCK = register(
+            "yaguara_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block YAGUARA_BLOCK_SIMPLE = register(
+            "simple_yaguara_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- LA PAZ -----
+    public static final Block LAPAZ_BLOCK = register(
+            "lapaz_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- ARTIGAS -----
+    public static final Block ARTIGAS_BLOCK = register(
+            "artigas_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block ARTIGAS_BLOCK_SIMPLE = register(
+            "simple_artigas_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- MATERNIDAD -----
+    public static final Block MATERNIDAD_BLOCK = register(
+            "maternidad_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    public static final Block MATERNIDAD_BLOCK_SIMPLE = register(
+            "simple_maternidad_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- CAPUCHINOS -----
+    public static final Block CAPUCHINOS_BLOCK = register(
+            "capuchinos_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
+    // ----- EL SILENCIO -----
+    public static final Block SILENCIO_BLOCK = register(
+            "silencio_ceramic",
             Block::new,
             AbstractBlock.Settings.copy(Blocks.STONE),
             true

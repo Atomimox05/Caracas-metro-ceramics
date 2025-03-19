@@ -16,6 +16,5 @@ public class MetroDeCaracas implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.initialize();
 		ModItems.init();
-		LOGGER.info("Hello Fabric world!");
 	}
 }
