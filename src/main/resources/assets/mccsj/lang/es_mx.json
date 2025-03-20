@@ -1,8 +1,14 @@
 {
+  "item.mccsj.adjuntas_ceramic": "Cerámica Las Adjuntas",
+  "item.mccsj.adjuntas_vertical_ceramic": "Cerámica Las Adjuntas Vertical",
+  "item.mccsj.caricuao_ceramic": "Cerámica Caricuao",
+  "item.mccsj.mamera_ceramic": "Cerámica Mamera",
+  "item.mccsj.rpineda_ceramic": "Cerámica Ruiz Pineda",
+  "item.mccsj.simple_caricuao_ceramic": "Cerámica Caricuao sin diseño",
+  "item.mccsj.simple_mamera_ceramic": "Cerámica Mamera sin diseño",
+  "item.mccsj.simple_rpineda_ceramic": "Cerámica Ruiz Pineda sin diseño",
+  "item.mccsj.simple_zoologico_ceramic": "Cerámica Zoológico sin diseño",
   "item.mccsj.suspicious_substance": "Burundanga",
   "item.mccsj.zoologico_ceramic": "Cerámica Zoológico",
-  "item.mccsj.simple_zoologico_ceramic": "Cerámica Zoológico sin diseño",
-  "item.mccsj.caricuao_ceramic": "Cerámica Caricuao",
-  "item.mccsj.simple_caricuao_ceramic": "Cerámica Caricuao sin diseño",
   "itemGroup.mccsj": "Cerámicas Metro de Caracas"
 }

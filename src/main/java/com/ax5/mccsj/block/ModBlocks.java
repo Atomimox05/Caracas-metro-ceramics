@@ -94,13 +94,6 @@ public class ModBlocks {
             true
     );
 
-    public static final Block ADJUNTAS_BLOCK_SIMPLE = register(
-            "simple_adjuntas_ceramic",
-            Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
-            true
-    );
-
     // ----- RUIZ PINEDA -----
     public static final Block RPINEDA_BLOCK = register(
             "rpineda_ceramic",

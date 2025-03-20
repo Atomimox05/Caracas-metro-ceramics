@@ -1,8 +1,14 @@
 {
-  "item.mccsj.suspicious_substance": "Suspicious Substance",
-  "item.mccsj.simple_zoologico_ceramic": "Simple Zoo Ceramic Block",
-  "item.mccsj.zoologico_ceramic": "Zoo Ceramic Block",
-  "item.mccsj.simple_caricuao_ceramic": "Simple Cuao Face Ceramic Block",
+  "item.mccsj.adjuntas_ceramic": "The Add Together Ceramic Block",
+  "item.mccsj.adjuntas_vertical_ceramic": "The Add Together Vertical Ceramic Block",
   "item.mccsj.caricuao_ceramic": "Cuao Face Ceramic Block",
+  "item.mccsj.mamera_ceramic": "The Blow job Ceramic Block",
+  "item.mccsj.rpineda_ceramic": "Ruiz Pineapple Ceramic Block",
+  "item.mccsj.simple_caricuao_ceramic": "Simple Cuao Face Ceramic Block",
+  "item.mccsj.simple_mamera_ceramic": "Simple Blow job Ceramic Block",
+  "item.mccsj.simple_rpineda_ceramic": "Simple Ruiz Pineapple Ceramic Block",
+  "item.mccsj.simple_zoologico_ceramic": "Simple Zoo Ceramic Block",
+  "item.mccsj.suspicious_substance": "Suspicious Substance",
+  "item.mccsj.zoologico_ceramic": "Zoo Ceramic Block",
   "itemGroup.mccsj": "Caracas Metro Ceramics"
 }

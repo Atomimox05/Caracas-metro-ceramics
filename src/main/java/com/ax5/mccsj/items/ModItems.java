@@ -31,10 +31,16 @@ public class ModItems {
 // Register items to the custom item group.
         ItemGroupEvents.modifyEntriesEvent(CUSTOM_ITEM_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.SUSPICIOUS_SUBSTANCE);
+            itemGroup.add(ModBlocks.ADJUNTAS_BLOCK);
+            itemGroup.add(ModBlocks.ADJUNTAS_VERTICAL_BLOCK);
+            itemGroup.add(ModBlocks.RPINEDA_BLOCK);
+            itemGroup.add(ModBlocks.RPINEDA_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.ZOOLOGICO_BLOCK);
             itemGroup.add(ModBlocks.ZOOLOGICO_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.CARICUAO_BLOCK);
             itemGroup.add(ModBlocks.CARICUAO_BLOCK_SIMPLE);
+            itemGroup.add(ModBlocks.MAMERA_BLOCK);
+            itemGroup.add(ModBlocks.MAMERA_BLOCK_SIMPLE);
             // ...
         });
     }
