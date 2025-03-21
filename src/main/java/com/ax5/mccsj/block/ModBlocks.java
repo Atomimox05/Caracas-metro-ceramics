@@ -215,4 +215,19 @@ public class ModBlocks {
             AbstractBlock.Settings.copy(Blocks.STONE),
             true
     );
+
+    // ----- MISCELANEOS -----
+    public static final Block BLACK_CERAMIC_BLOCK = register(
+            "black_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+    public static final Block WHITE_CERAMIC_BLOCK = register(
+            "white_ceramic",
+            Block::new,
+            AbstractBlock.Settings.copy(Blocks.STONE),
+            true
+    );
+
 }
