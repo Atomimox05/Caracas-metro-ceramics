@@ -164,7 +164,7 @@ public class ModBlocks {
 
     // ----- LA PAZ -----
     public static final Block LAPAZ_BLOCK = register(
-            "lapaz_ceramic",
+            "paz_ceramic",
             Block::new,
             AbstractBlock.Settings.copy(Blocks.STONE),
             true

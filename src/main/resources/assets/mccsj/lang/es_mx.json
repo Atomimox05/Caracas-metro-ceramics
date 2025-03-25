@@ -1,14 +1,23 @@
 {
   "item.mccsj.adjuntas_ceramic": "Cerámica Las Adjuntas",
   "item.mccsj.adjuntas_vertical_ceramic": "Cerámica Las Adjuntas Vertical",
+  "item.mccsj.antimano_ceramic": "Cerámica Antímano",
+  "item.mccsj.artigas_ceramic": "Cerámica Artigas",
+  "item.mccsj.black_ceramic": "Cerámica Negra",
+  "item.mccsj.capuchinos_ceramic": "Cerámica Capuchinos",
   "item.mccsj.caricuao_ceramic": "Cerámica Caricuao",
   "item.mccsj.mamera_ceramic": "Cerámica Mamera",
+  "item.mccsj.paz_ceramic": "Cerámica La Paz",
   "item.mccsj.rpineda_ceramic": "Cerámica Ruiz Pineda",
+  "item.mccsj.simple_artigas_ceramic": "Cerámica Artigas sin diseño",
   "item.mccsj.simple_caricuao_ceramic": "Cerámica Caricuao sin diseño",
   "item.mccsj.simple_mamera_ceramic": "Cerámica Mamera sin diseño",
   "item.mccsj.simple_rpineda_ceramic": "Cerámica Ruiz Pineda sin diseño",
+  "item.mccsj.simple_yaguara_ceramic": "Cerámica La Yaguara sin diseño",
   "item.mccsj.simple_zoologico_ceramic": "Cerámica Zoológico sin diseño",
   "item.mccsj.suspicious_substance": "Burundanga",
+  "item.mccsj.white_ceramic": "Cerámica Blanca",
+  "item.mccsj.yaguara_ceramic": "Cerámica La Yaguara",
   "item.mccsj.zoologico_ceramic": "Cerámica Zoológico",
   "itemGroup.mccsj": "Cerámicas Metro de Caracas"
 }

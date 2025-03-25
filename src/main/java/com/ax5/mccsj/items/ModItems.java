@@ -41,6 +41,18 @@ public class ModItems {
             itemGroup.add(ModBlocks.CARICUAO_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.MAMERA_BLOCK);
             itemGroup.add(ModBlocks.MAMERA_BLOCK_SIMPLE);
+            itemGroup.add(ModBlocks.ANTIMANO_BLOCK);
+            //Carapita
+            itemGroup.add(ModBlocks.YAGUARA_BLOCK);
+            itemGroup.add(ModBlocks.YAGUARA_BLOCK_SIMPLE);
+            itemGroup.add(ModBlocks.LAPAZ_BLOCK);
+            itemGroup.add(ModBlocks.ARTIGAS_BLOCK);
+            itemGroup.add(ModBlocks.ARTIGAS_BLOCK_SIMPLE);
+            //Maternidad
+            itemGroup.add(ModBlocks.CAPUCHINOS_BLOCK);
+            itemGroup.add(ModBlocks.SILENCIO_BLOCK);
+            itemGroup.add(ModBlocks.WHITE_CERAMIC_BLOCK);
+            itemGroup.add(ModBlocks.BLACK_CERAMIC_BLOCK);
             // ...
         });
     }
@@ -60,7 +72,7 @@ public class ModItems {
 
     public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), Identifier.of(MetroDeCaracas.MOD_ID, "item_group"));
     public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
-            .icon(() -> new ItemStack(ModBlocks.ZOOLOGICO_BLOCK))
+            .icon(() -> new ItemStack(ModBlocks.LAPAZ_BLOCK))
             .displayName(Text.translatable("itemGroup.mccsj"))
             .build();
 
