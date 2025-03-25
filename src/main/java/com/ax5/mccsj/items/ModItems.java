@@ -42,13 +42,14 @@ public class ModItems {
             itemGroup.add(ModBlocks.MAMERA_BLOCK);
             itemGroup.add(ModBlocks.MAMERA_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.ANTIMANO_BLOCK);
-            //Carapita
+            itemGroup.add(ModBlocks.CARAPITA_BLOCK);
+            itemGroup.add(ModBlocks.CARAPITA_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.YAGUARA_BLOCK);
             itemGroup.add(ModBlocks.YAGUARA_BLOCK_SIMPLE);
             itemGroup.add(ModBlocks.LAPAZ_BLOCK);
             itemGroup.add(ModBlocks.ARTIGAS_BLOCK);
             itemGroup.add(ModBlocks.ARTIGAS_BLOCK_SIMPLE);
-            //Maternidad
+            itemGroup.add(ModBlocks.MATERNIDAD_BLOCK);
             itemGroup.add(ModBlocks.CAPUCHINOS_BLOCK);
             itemGroup.add(ModBlocks.SILENCIO_BLOCK);
             itemGroup.add(ModBlocks.WHITE_CERAMIC_BLOCK);
