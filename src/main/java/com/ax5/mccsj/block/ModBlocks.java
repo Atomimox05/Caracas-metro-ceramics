@@ -53,7 +53,7 @@ public class ModBlocks {
     public static final Block ZOOLOGICO_BLOCK = register(
             "zoologico_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE),
             true
     );
 
@@ -188,13 +188,6 @@ public class ModBlocks {
     // ----- MATERNIDAD -----
     public static final Block MATERNIDAD_BLOCK = register(
             "maternidad_ceramic",
-            Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
-            true
-    );
-
-    public static final Block MATERNIDAD_BLOCK_SIMPLE = register(
-            "simple_maternidad_ceramic",
             Block::new,
             AbstractBlock.Settings.copy(Blocks.STONE),
             true
