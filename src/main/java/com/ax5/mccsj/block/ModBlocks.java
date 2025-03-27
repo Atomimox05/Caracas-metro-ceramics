@@ -60,7 +60,7 @@ public class ModBlocks {
     public static final Block ZOOLOGICO_BLOCK_SIMPLE = register(
             "simple_zoologico_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE),
             true
     );
 
@@ -68,14 +68,14 @@ public class ModBlocks {
     public static final Block CARICUAO_BLOCK = register(
             "caricuao_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE),
             true
     );
 
     public static final Block CARICUAO_BLOCK_SIMPLE = register(
             "simple_caricuao_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.PINK_CONCRETE),
             true
     );
 
@@ -83,14 +83,14 @@ public class ModBlocks {
     public static final Block ADJUNTAS_BLOCK = register(
             "adjuntas_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE),
             true
     );
 
     public static final Block ADJUNTAS_VERTICAL_BLOCK = register(
             "adjuntas_vertical_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE),
             true
     );
 
@@ -98,14 +98,14 @@ public class ModBlocks {
     public static final Block RPINEDA_BLOCK = register(
             "rpineda_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE),
             true
     );
 
     public static final Block RPINEDA_BLOCK_SIMPLE = register(
             "simple_rpineda_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.LIGHT_BLUE_CONCRETE),
             true
     );
 
@@ -113,14 +113,14 @@ public class ModBlocks {
     public static final Block MAMERA_BLOCK = register(
             "mamera_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE),
             true
     );
 
     public static final Block MAMERA_BLOCK_SIMPLE = register(
             "simple_mamera_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.BLUE_CONCRETE),
             true
     );
 
@@ -128,7 +128,7 @@ public class ModBlocks {
     public static final Block ANTIMANO_BLOCK = register(
             "antimano_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.LIGHT_GRAY_CONCRETE),
             true
     );
 
@@ -136,14 +136,14 @@ public class ModBlocks {
     public static final Block CARAPITA_BLOCK = register(
             "carapita_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE),
             true
     );
 
     public static final Block CARAPITA_BLOCK_SIMPLE = register(
             "simple_carapita_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.CYAN_CONCRETE),
             true
     );
 
@@ -151,14 +151,14 @@ public class ModBlocks {
     public static final Block YAGUARA_BLOCK = register(
             "yaguara_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.RED_CONCRETE),
             true
     );
 
     public static final Block YAGUARA_BLOCK_SIMPLE = register(
             "simple_yaguara_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.RED_CONCRETE),
             true
     );
 
@@ -166,7 +166,7 @@ public class ModBlocks {
     public static final Block LAPAZ_BLOCK = register(
             "paz_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.YELLOW_CONCRETE),
             true
     );
 
@@ -174,14 +174,14 @@ public class ModBlocks {
     public static final Block ARTIGAS_BLOCK = register(
             "artigas_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE),
             true
     );
 
     public static final Block ARTIGAS_BLOCK_SIMPLE = register(
             "simple_artigas_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE),
             true
     );
 
@@ -189,7 +189,7 @@ public class ModBlocks {
     public static final Block MATERNIDAD_BLOCK = register(
             "maternidad_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.MAGENTA_CONCRETE),
             true
     );
 
@@ -197,7 +197,7 @@ public class ModBlocks {
     public static final Block CAPUCHINOS_BLOCK = register(
             "capuchinos_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE),
             true
     );
 
@@ -205,7 +205,7 @@ public class ModBlocks {
     public static final Block SILENCIO_BLOCK = register(
             "silencio_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.GREEN_CONCRETE),
             true
     );
 
@@ -213,14 +213,19 @@ public class ModBlocks {
     public static final Block BLACK_CERAMIC_BLOCK = register(
             "black_ceramic",
             Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
+            AbstractBlock.Settings.copy(Blocks.BLACK_CONCRETE),
             true
     );
     public static final Block WHITE_CERAMIC_BLOCK = register(
             "white_ceramic",
             Block::new,
+            AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE),
+            true
+    );
+    public static final Block RAVAN_BLOCK = register(
+            "ravan_block",
+            Block::new,
             AbstractBlock.Settings.copy(Blocks.STONE),
             true
     );
-
 }
