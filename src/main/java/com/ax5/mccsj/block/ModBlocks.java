@@ -222,10 +222,4 @@ public class ModBlocks {
             AbstractBlock.Settings.copy(Blocks.WHITE_CONCRETE),
             true
     );
-    public static final Block RAVAN_BLOCK = register(
-            "ravan_block",
-            Block::new,
-            AbstractBlock.Settings.copy(Blocks.STONE),
-            true
-    );
 }
