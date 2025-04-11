@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "mccsj",
+	"version": "${version}",
+	"name": "Caracas metro ceramics",
+	"description": "A minecraft mod that uses custom blocks with the ceramic designs of the Caracas Metro line 2.",
+	"authors": [
+		"Atomimox"
+	],
+	"contact": {
+		"homepage": "https://codejod.com/",
+		"sources": "https://github.com/Atomimox05/Caracas-metro-ceramics"
+	},
+	"license": "MIT",
+	"icon": "assets/mccsj/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ax5.mccsj.CaracasMetroCeramics"
+		],
+		"fabric-datagen": [
+			"com.ax5.mccsj.CaracasMetroCeramicsDataGenerator"
+		],
+		"client": [
+			"com.ax5.mccsj.CaracasMetroCeramicsClient"
+		]
+	},
+	"mixins": [
+		"mccsj.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
