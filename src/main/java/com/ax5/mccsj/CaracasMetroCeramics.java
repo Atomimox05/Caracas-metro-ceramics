@@ -1,5 +1,6 @@
 package com.ax5.mccsj;
 
+import com.ax5.mccsj.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class CaracasMetroCeramics implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello world!");
+		ModItems.registerModItems();
 	}
 }
