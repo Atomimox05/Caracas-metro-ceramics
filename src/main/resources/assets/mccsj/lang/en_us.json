@@ -1,3 +1,27 @@
 {
-  "item.mccsj.suspicious_substance": "Suspicious Susbstance"
+  "block.mccsj.adjuntas_ceramic": "The Add Together Ceramic",
+  "block.mccsj.adjuntas_vertical_ceramic": "The Add Together Vertical Ceramic",
+  "block.mccsj.antimano_ceramic": "Anti Hand Ceramic",
+  "block.mccsj.artigas_ceramic": "Art and Gas Ceramic",
+  "block.mccsj.black_ceramic": "Black Ceramic",
+  "block.mccsj.capuchinos_ceramic": "Capuchinesse Ceramic",
+  "block.mccsj.carapita_ceramic": "Pita Face Ceramic",
+  "block.mccsj.caricuao_ceramic": "Cuao Face Ceramic",
+  "block.mccsj.mamera_ceramic": "The Blow job Ceramic",
+  "block.mccsj.maternidad_ceramic": "Maternity Ceramic",
+  "block.mccsj.paz_ceramic": "The Peace Ceramic",
+  "block.mccsj.rpineda_ceramic": "Ruiz Pineapple Ceramic",
+  "block.mccsj.silencio_ceramic": "The Silence Ceramic",
+  "block.mccsj.simple_artigas_ceramic": "Simple Art and Gas Ceramic",
+  "block.mccsj.simple_carapita_ceramic": "Simple Pita Face Ceramic",
+  "block.mccsj.simple_caricuao_ceramic": "Simple Cuao Face Ceramic",
+  "block.mccsj.simple_mamera_ceramic": "Simple The Blow job Ceramic",
+  "block.mccsj.simple_rpineda_ceramic": "Simple Ruiz Pineapple Ceramic",
+  "block.mccsj.simple_yaguara_ceramic": "Simple Right now Guara Ceramic",
+  "block.mccsj.simple_zoologico_ceramic": "Simple Zoo Ceramic",
+  "item.mccsj.suspicious_substance": "Suspicious Substance",
+  "block.mccsj.white_ceramic": "White Ceramic",
+  "block.mccsj.yaguara_ceramic": "Right now Guara Ceramic",
+  "block.mccsj.zoologico_ceramic": "Zoo Ceramic",
+  "itemGroup.mccsj": "Caracas Metro Ceramics"
 }

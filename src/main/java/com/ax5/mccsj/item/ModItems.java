@@ -15,7 +15,7 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM, new Identifier(CaracasMetroCeramics.MOD_ID), item);
+        return Registry.register(Registries.ITEM, new Identifier(CaracasMetroCeramics.MOD_ID, name), item);
     }
 
     public static void addItemsToItemGroup(){

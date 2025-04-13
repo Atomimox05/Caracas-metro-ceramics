@@ -1,5 +1,7 @@
 package com.ax5.mccsj;
 
+import com.ax5.mccsj.block.ModBlock;
+import com.ax5.mccsj.item.ModItemGroup;
 import com.ax5.mccsj.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +15,7 @@ public class CaracasMetroCeramics implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroup.registerItemGroups();
+		ModBlock.registerModBlocks();
 	}
 }
